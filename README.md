@@ -20,3 +20,10 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+
+## Build Docker Image
+
+```docker build -t princip/transithub-service-work-page:1.0.0 .```
+
+```docker push princip/transithub-service-work-page:1.0.0```

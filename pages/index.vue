@@ -1,7 +1,7 @@
 <template>
   <div class="ServicePage">
     <h1>TRANSITHUB</h1>
-    <span>Driving agribusiness every day</span>
+    <span><i>Driving agribusiness every day</i></span>
     <span class="ServisMessage">
       На сайті йдуть планові технічні роботи.
       <p>Просимо вибачення за незручності!</p>
@@ -25,7 +25,7 @@ export default {};
 h1 {
   margin: 0;
   position: absolute;
-  top: 40%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 36px;
@@ -36,7 +36,7 @@ h1 {
 span {
   margin-top: 40px;
   position: absolute;
-  top: 40%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Lobster", cursive;
@@ -47,8 +47,8 @@ span {
 }
 
 .ServisMessage {
-  margin: 20px 0;
-  height: 20px;
+  margin: 5px 0;
+  height: 30px;
   position: absolute;
   top: 50%;
   font-family: Arial;
